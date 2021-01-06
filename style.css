@@ -122,16 +122,18 @@ footer{
     line-height: 5px;
     font-weight: 700;
     margin-bottom: 5px;
+   
 }
 .footer2{
     float: left;
-    margin-left: 600px;
+    margin-left: 500px;
 }
 .footer2 img{
     height: 40px;
     width: 40px;
     padding: 5px
 }
+
 .banner{
     background-image: url(images/inquiry.png);
     height: 200px;
@@ -169,4 +171,51 @@ footer{
 .mail-link{
     text-decoration: none;
     color: rgb(49, 46, 46);
+}
+.contact-me p{
+    text-align: center;
+    font-size: 50px;
+    color: black
+}
+.contact-me{
+    padding-bottom: 50px;
+}
+.contact-me #name{
+    width: 45%;
+    height: 40px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+.contact-me #email{
+    width: 46%;
+    height: 40px;
+}
+.contact-me #subject{
+    width: 94%;
+    height: 40px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+.contact-me #message{
+    width: 94%;
+    margin-bottom: 100px;
+    margin-left: 20px;
+}
+.contact-me button{
+    padding: 15px 50px;
+    color: #fff;
+    border: 1px solid #f68266;
+    border-radius: 5px;
+    margin-left: 20px;
+    background-image: linear-gradient(45deg,purple,violet);
+}
+.contact-me button:hover{
+    background-image: linear-gradient(180deg,purple, violet);
+}
+.contact{
+    margin-top: 50px;
+    padding-bottom: 5px;
+    height: 500px;
 }
