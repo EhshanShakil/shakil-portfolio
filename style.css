@@ -84,6 +84,18 @@ section{
     height: 200px;
 
 }
+.client{
+    text-align: center;
+    height: 500px;
+    width: 500px;
+    margin-left: 430px;
+
+}
+.client img{
+    height: 150px;
+    width: 150px;
+}
+
 footer{
     text-align: center;
     line-height: 0px;
