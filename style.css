@@ -1,0 +1,142 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    margin: 0px;
+}
+h1{
+    font-size: 50px;
+    text-shadow: gray 2px 1px 1px;
+    font-weight: 700;
+    color:rgb(62, 62, 117);
+    height: 20px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+h4{
+    font-size: 25px;
+    font-weight: 700;
+}
+h5{
+    font-size: 20px;
+}
+p{
+    color: gray;
+}
+.name-color{
+    color: #FF8367
+}
+.top-button{
+    color: white;
+    background-image: linear-gradient(45deg,purple,violet);
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 700;
+}
+.intro{
+    float: left;
+    width: 35%;
+    margin-left: 50px;
+    padding-left: 50px;
+}
+img{
+    width: 100%;
+}
+section{
+    height: 500px;
+    margin-bottom: 100px;
+}
+.projects{
+    float: left;
+    margin-left: 70px;
+    border: solid white 15px;
+    border-radius: 20px;
+    box-shadow: whitesmoke 3px 1px 5px ;
+    background-color: white;
+
+}
+.projects img{
+    width: 330px
+}
+.working-projects{
+    width: 100%;
+    background-color: #f8efef;
+    padding-top: 100px;
+    padding-bottom: 230px;
+}   
+
+.border-test{
+    width: 330px;
+}
+.inquiry img{
+    height: 200px;
+    width: 820px;
+}
+.inquiry{
+    margin-left: 280px;
+    margin-right: 250px;
+    height: 200px;
+
+}
+footer{
+    text-align: center;
+    line-height: 0px;
+    height: 80px;
+
+}
+.footer1{
+    font-size: 20px;
+    line-height: 5px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.footer2{
+    float: left;
+    margin-left: 590px;
+}
+.footer2 img{
+    height: 40px;
+    width: 40px;
+    padding: 5px
+}
+.banner{
+    background-image: url(images/inquiry.png);
+    height: 200px;
+    width: 820px;
+    border: 1px solid white;
+    margin-left: 270px;
+    background-repeat: no-repeat;
+    background-size: 820px 200px;
+}
+.banner1{
+    text-align: left;
+    font-size: 35px;
+    color: white;
+    margin-top: 80px;
+    margin-left: 20px;
+    font-weight: 700;
+}
+.last-button{
+    color:white;
+    margin-left: 220px;
+    background-image: linear-gradient(45deg,purple,violet);
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 25px;
+}
+.button-link{
+    text-decoration: none;
+    color: white;
+}
+.mail-link{
+    text-decoration: none;
+    color: rgb(49, 46, 46);
+}
