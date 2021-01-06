@@ -1,6 +1,15 @@
+*{
+    margin 0
+}
 body{
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0px;
+}
+#top-part{
+    margin-top: 50px;
+}
+.intro a:hover{
+    background-image: linear-gradient(180deg,purple, violet);
 }
 h1{
     font-size: 50px;
@@ -59,6 +68,11 @@ section{
     border-radius: 20px;
     box-shadow: whitesmoke 3px 1px 5px ;
     background-color: white;
+    margin-top: 40px;
+
+}
+.projects-color{
+    color: #FF8367;
 
 }
 .projects img{
@@ -67,8 +81,9 @@ section{
 .working-projects{
     width: 100%;
     background-color: #f8efef;
-    padding-top: 100px;
+    padding-top: 80px;
     padding-bottom: 230px;
+    font-weight: 700;
 }   
 
 .border-test{
@@ -86,9 +101,9 @@ section{
 }
 .client{
     text-align: center;
-    height: 500px;
-    width: 500px;
-    margin-left: 430px;
+    height: 400px;
+    width: 700px;
+    margin-left: 335px;
 
 }
 .client img{
@@ -110,7 +125,7 @@ footer{
 }
 .footer2{
     float: left;
-    margin-left: 590px;
+    margin-left: 600px;
 }
 .footer2 img{
     height: 40px;
@@ -120,23 +135,26 @@ footer{
 .banner{
     background-image: url(images/inquiry.png);
     height: 200px;
-    width: 820px;
+    width: 900px;
     border: 1px solid white;
-    margin-left: 270px;
+    margin-left: 240px;
     background-repeat: no-repeat;
-    background-size: 820px 200px;
+    background-size: 900px 200px;
 }
 .banner1{
     text-align: left;
     font-size: 35px;
     color: white;
     margin-top: 80px;
-    margin-left: 20px;
+    margin-left: 70px;
     font-weight: 700;
+}
+.last-button:hover{
+    background-image: linear-gradient(180deg,purple, violet);
 }
 .last-button{
     color:white;
-    margin-left: 220px;
+    margin-left: 320px;
     background-image: linear-gradient(45deg,purple,violet);
     padding: 10px 30px;
     border-radius: 5px;
